@@ -1,0 +1,5 @@
+<sly data-sly-use.component="com.adobe.aem.guides.wknd.core.models.LinkList"/>
+${component.title}
+<dl data-sly-list="${ component.linksNameList}">
+    <p><a href="${item.linkUrl}.html">${item.linkName}</a></p>
+</dl>
